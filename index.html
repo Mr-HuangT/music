@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>音乐播放器</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="box">
+<!--头部-->
+<header>
+    <div class="container">
+        <h3 class="left">课工场音乐播放器3.0</h3>
+        <p class="right">By - Huang Teng </p>
+    </div>
+
+</header>
+<!--主体内容-->
+<section>
+<div class="container">
+<input type="text" class="search">
+    <ul class="searchList" >
+       <!-- <li>
+            <span class="left song">老街</span>
+            <span class="right singer">李荣浩</span>
+        </li>
+        <li>
+            <span class="left song">模特</span>
+            <span class="right singer">李荣浩</span>
+        </li>
+        <li>
+            <span class="left song">水手</span>
+            <span class="right singer">郑智化</span>
+        </li>
+        <li>
+            <span class="left song">星星点灯</span>
+            <span class="right singer">郑智化</span>
+        </li>-->
+    </ul>
+</div>
+
+</section>
+</div>
+
+<footer>
+    <div class="container">
+        <!--控制按钮-->
+         <div class="btns left">
+            <div class="prev left"></div>
+            <div class="start left"></div>
+             <div class="next left"></div>
+        </div>
+
+      <!--  进度条-->
+<div class=" left bars">
+    <div class="left logo">
+        <img src="">
+    </div>
+    <div class="left ctrl-bars-box">
+        <p>歌曲名 -- 歌手名</p>
+        <div class="ctrl-bar ">
+        <div class="nowTime"></div>
+        <div class="ctrl-btn">
+            <div class="small"></div>
+        </div>
+    </div>
+</div>
+    <div class="left playTime">
+        <span class="playTimeNow">00:00</span>
+        /
+        <span class="playTimeTotal">00:00</span>
+    </div>
+</div>
+
+<div class="left modes">
+    <div class="left voice"></div>
+    <div class="left mode"></div>
+    <div class="left list"></div>
+</div>
+    </div>
+
+
+
+</footer>
+
+<div class="play-list">
+    <h3>播放列表 <p class="del">删除</p></h3>
+
+    <ul></ul>
+</div>
+
+<div class="mode-info"></div>
+
+<div class="voice-info"></div>
+
+
+</div>
+
+
+<audio></audio>
+ <div id="container"></div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+<script src="lib/three.min.js"></script>
+<script src="lib/index.js"></script>
+<script src="js/index.js"></script>
+
+</html>
